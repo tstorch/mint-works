@@ -14,13 +14,14 @@ Ages 13+
 	- [Plans](#plans)
 		- [Plan Types](#plan-types)
 - [Icons](#icons)
-- [Setup](#setup)
-- [Gameplay](#gameplay)
-	- [Development](#development)
-		- [Place](#place)
-		- [Pass](#pass)
-	- [Upkeep [Upkeep]](#upkeep-upkeep)
-- [Scoring](#scoring)
+- [Competitive Mode](#competitive-mode)
+	- [Setup](#setup)
+	- [Gameplay](#gameplay)
+		- [Development](#development)
+			- [Place](#place)
+			- [Pass](#pass)
+		- [Upkeep [Upkeep]](#upkeep-upkeep)
+	- [Scoring](#scoring)
 - [Solitaire Mode](#solitaire-mode)
 	- [Setup](#setup)
 	- [AI Cards](#ai-cards)
@@ -92,7 +93,10 @@ The goal of the game is to gather as much of these as possible.
 
 [Upkeep] represents the Upkeep Phase (see below) in a gameplay round.
 Plan Effects marked with this symbol are triggered during this Phase.
-## Setup
+
+## Competitive Mode
+
+### Setup
 
 1. The four Core Locations are placed on the table granting easy access to all
 players, showing the side corresponding to the number of players.
@@ -112,12 +116,12 @@ the *Plan Supply*.
 ![Play area after Setup](img/dummy.jpg "Play area after Setup")  
 Play area after Setup
 
-## Gameplay
+### Gameplay
 
 Each round is divided into two phases:
 The Development phase followed by the Upkeep phase.
 
-### Development
+#### Development
 
 The player currently holding he Start Player Token takes the first turn.
 
@@ -130,19 +134,19 @@ This keeps going until all players consecutively pass, ending the Development
 phase.
 Afterwards proceed to the Upkeep Phase.
 
-#### Place
+##### Place
 
 The player chooses an unoccupied Mint Placement Space and places the required
 amount of [Mint] on it, granting the player the Location's Effect.
 
 
-#### Pass
+##### Pass
 
 The player’sturn is over.On their next turn they will have the chance to choose
 *Place* or *Pass* again.
 
 
-### Upkeep [Upkeep]
+#### Upkeep [Upkeep]
 
 1. If any player has seven or more [Star] provided by built Plans in their
 Neighborhood, the game ends and Scoring takes place.
@@ -154,7 +158,7 @@ the game ends and Scoring takes place.
 5. Each player gains [Mint].
 6. Proceed to the next Development Phase.
 
-## Scoring
+### Scoring
 
 Count the total number of [Star] each player each player earns from built Plans in their Neighborhood.
 
