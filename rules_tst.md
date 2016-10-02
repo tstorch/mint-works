@@ -181,8 +181,8 @@ Mint Works can also be played solitaire. The game includes four different AI opp
 * \[Mint\] equal to your opponent’s Starting Mint Token Share are taken from the Mint Supply and placed into their Neighborhood.
 
 
-![Play area after Setup](img/dummy.jpg "Play area after Setup")  
-Play area after Setup
+![Play area after Solitaire Setup](img/dummy.jpg "Play area after Solitaire Setup")  
+Play area after Solitaire Setup
 
 ### AI Cards
 
