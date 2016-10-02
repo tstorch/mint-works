@@ -44,11 +44,11 @@ easy to learn, with enough depth to keep you coming back.
 
 Players take the role of neighborhood planners and will be working to develop
 the finest neighborhood in *Mintopia City*.
-To do so you start with \[Mint\]\[Mint\]\[Mint\] and will gain [Mint]
+To do so they start with \[Mint\]\[Mint\]\[Mint\] and will gain [Mint]
 every round.
-With these [Mint] you will activate Locations to gain more [Mint], buy Plans
+With these [Mint] they will activate Locations to gain more [Mint], buy Plans
 and build those Plans.
-Built Plans will grant you abilities, effects and [Star].
+Built Plans will grant them abilities, effects and [Star].
 When the game ends the player with the most [Star] wins.
 
 ## Cards
