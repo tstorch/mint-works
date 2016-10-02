@@ -21,6 +21,10 @@ Ages 13+
 		- [Pass](#pass)
 	- [Upkeep [Upkeep]](#upkeep-upkeep)
 - [Scoring](#scoring)
+- [Solitaire Mode](#solitaire-mode)
+	- [Setup](#setup)
+	- [AI Cards](#ai-cards)
+	- [Solitaire specific Rules](#solitaire-specific-rules)
 
 <!-- /TOC -->
 
@@ -157,3 +161,46 @@ Count the total number of [Star] each player each player earns from built Plans 
 The player with the most [Star] has the finest Neighborhood and wins!
 
 If two or more players are tied for first place, the tied player with the smallest Neighborhood (i.e. fewest Plans) wins. If there is still a tie, the tied player with the most wins. Still tied? You all win!
+
+
+## Solitaire Mode
+
+Mint Works can also be played solitaire. The game includes four different AI opponents to play against.
+
+### Setup
+
+* One of the four AIs is selected to represent your opponent.
+* The four Core Locations and two Deed Locations are placed in a line on the table, showing the *one player* resp. *closed* sides. Place in the following order: Producer, Wholesaler, Builder,Supplier, Leadership Council, Lotto.
+  * Advanced Setup
+
+  One Advanced Location is selected at random and placed after the Lotto.
+* All Plans are shuffled are shuffled and stacked face down near the Locations forming the Plan Deck.
+* Two Plans are drawn from and placed face up next to the Plan Deck forming the Plan Supply.
+* The Mint Tokens are placed set near the Plan Supply forming the Mint Supply.
+* \[Mint\]\[Mint\]\[Mint\] are taken from the Mint Supply and added to your Neighborhood.
+* \[Mint\] equal to your opponent’s Starting Mint Token Share are taken from the Mint Supply and placed into their Neighborhood.
+
+
+![Play area after Setup](img/dummy.jpg "Play area after Setup")  
+Play area after Setup
+
+### AI Cards
+
+* Name
+* Title
+* Processing Logic
+* Starting Mint Token Share
+* Cost Preference
+* Supplier Buy Priority
+
+### Solitaire specific Rules
+
+The standard rules apply to the solitaire mode of Mint Works. There are however a few exceptions:
+
+* When a Plan is taken from the Plan Supply and not replaced by another effect, replace it immediately with one from the Plan Deck.
+* When the AI performs the Place action, it will always place in the first available Mint Placement Space in the Location line, that they can use, starting with the Producer.
+* If the AI is unable to use any Location, they choose the Pass action.
+* When performing the Place action for your opponent, place the required amount of [Mint] from them on the corresponding Mint Placement Space.
+* During [Upkeep], if no [Mint] is on the Supplier before returning all [Mint] to the Mint Supply, put the two Plans in the Plan Supply on the bottom of the Plan Deck, and replace them by two new Plans from the Plan Deck.
+* The AI will build the oldest unbuilt Plan in its Neighborhood first.
+* The AI will buy Plans based on Cost Preference. If there is a tie for Cost, it buys according to its Supplier Buy Priority. If there is still a tie, it will buy the Plan closest to the Plan Deck.
