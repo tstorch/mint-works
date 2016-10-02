@@ -174,7 +174,7 @@ Mint Works can also be played solitaire. The game includes four different AI opp
 ### Setup
 
 * One of the four AIs is selected to represent your opponent.
-* The four Core Locations and two Deed Locations are placed in a line on the table, showing the *one player* resp. *closed* sides. Place in the following order: Producer, Wholesaler, Builder,Supplier, Leadership Council, Lotto.
+* The four Core Locations and two Deed Locations are placed in a line on the table, showing the *one player* resp. *closed* sides. Place in the following order: Producer, Wholesaler, Builder, Supplier, Leadership Council, Lotto.
   * Advanced Setup
 
   One Advanced Location is selected at random and placed after the Lotto.
